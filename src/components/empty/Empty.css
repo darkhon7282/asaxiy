@@ -1,0 +1,12 @@
+.empty{
+    text-align: center;
+    padding-top: 80px;
+}
+.empty img{
+    width: 150px;
+}
+.empty h2{
+    margin: 20px;
+    color: #008dff;
+    font-family: 'Courier New', Courier, monospace;
+}

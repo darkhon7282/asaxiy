@@ -1,0 +1,349 @@
+*{
+    font-family: "Raleway", sans-serif;
+}
+
+
+
+
+
+.like__cost button{
+    
+    padding: 7px 13px;
+    
+    background-color: #008dff;
+}
+.minus{
+    border: none;
+    border-radius: 5px 0 0 5px;
+    color: #fff;
+}
+.minus:hover,
+.plus:hover{
+    background-color: #0071ce;
+}
+.plus{
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    border: none;
+}
+
+.like__cost span{
+    margin: 0;
+    padding: 5px 15px 8px 15px;
+    
+    background-color: #fff;
+}
+.for__hr{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 900px) {
+    .paymant__type button{
+        margin: 20px 0;
+    }
+    .like__cost button{
+        
+        padding: 3px 7.5px;
+        border-radius: 50%;
+        background-color: #fff;
+    }
+    .like__cost span{
+        margin: 0 1px;
+    }
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .your__book{
+        margin: 20px 0;
+    }
+    .your__back{
+        margin-left: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+.like_price{
+    padding: 40px 0px 0px 0;
+    font-size: 25px;
+}
+.your__information{
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 30px;
+}
+.info__text{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.info__text h1{
+    font-weight: 500;
+}
+.info__text button{
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid #FE7300;
+    background-color: #fff;
+    color: #FE7300;
+    transition: .3s;
+}
+.info__text button:hover{
+    background-color: #FE7300;
+    color: #fff;
+}
+
+.your_info{
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.your_info input,
+.your_info select{
+    width: 48%;
+    border-radius: 13px;
+    height: 45px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid rgb(209, 209, 209);
+}
+.your__full h2{
+    margin: 30px 0;
+    font-weight: 500;
+    text-align: center;
+}
+.your__delivery button{
+    width: 30%;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.your_to_home{
+    background-color: #008dff;
+    color: #fff;
+    border: none;
+}
+.your__filial{
+    background-color: #fff;
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 20px;
+}
+.your__district{
+    width: 100%;
+    border-radius: 13px;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 18px;
+    border: 2px solid rgb(209, 209, 209);
+    margin: 30px 0 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.your_order_type{
+    padding: 30px;
+    border: 1px solid rgb(203, 203, 203);
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+.your_order_type button{
+    display: block;
+    width: 100%;
+    height: 65px;
+    margin: 20px 0;
+    border-radius: 10px;
+    
+    background-color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    transition: .3s;
+}
+.your_order_type button:hover{
+    border: 2px solid #DA002B;
+}
+.tick_order{
+    margin-right: 10px;
+}
+.your_payment_full{
+    border: 2px solid #DA002B;
+}
+.your_payment_credit{
+    border: 2px solid rgb(203, 203, 203);
+}
+.tick_1{
+    color: #DA002B;
+    border: 3px solid #DA002B;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.your__textarea{
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid rgb(203, 203, 203);
+    
+}
+.your__textarea h2{
+    font-weight: 500;
+    margin:0 0 20px 0;
+}
+.textarea{
+    resize: vertical;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid rgb(203, 203, 203);
+    border-radius: 13px;
+    margin: 20px 0;
+}
+.textarea:hover{
+    border: 2px solid rgb(203, 203, 203);
+}
+.promo_kod_btn{
+    width: 15%;
+    height: 40px;
+    background-color: #008dff;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+.promo_kod_btn:hover{
+    background-color: #0071ce;
+    transition: .3s;
+}
+.paymant__type{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.paymant__type input{
+    height: 20px;
+    width: 20px;
+}
+.paymant__type button{
+    width: 50%;
+    height: 60px;
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+
+.procurement__rule{
+    margin-top: 30px;
+}
+.procurement__rule input{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #FE7300;
+}
+.procurement__rule label{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.procurement__rule label a{
+    color: #008dff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.your__order{
+    padding: 30px 0;
+    margin-top: 20px;
+    
+    border-radius: 16px;
+}
+.your__book{
+    width: 300px;
+    height: 45px;
+    border: 2px solid #FE7300;
+    background-color: #FE7300;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    transition: .3s;
+}
+.your__book:hover{
+    cursor: pointer;
+    background-color: #da6200;
+}
+.your__back{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #fff;
+    padding: 14px 123px;
+    margin-left: 20px;
+}
+
+.your__back:hover{
+    background-color: #FE7300;
+    color: #fff;
+    transition: .3s;
+}
+
+.your__order a{
+    color: #FE7300;
+}
+
+.your__order p{
+    margin: 20px 0;
+    color: rgb(168, 168, 168);
+}
+.your__order p a{
+    color: rgb(0, 128, 255);
+}

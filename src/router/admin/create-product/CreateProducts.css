@@ -1,0 +1,121 @@
+.form__name {
+  font-size: 20px;
+  margin: 35px 0;
+}
+.create__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  padding: 50px;
+}
+.create__form input,
+.create__form select {
+  width: 300px;
+  height: 40px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  border: 3px solid #008dff;
+  box-shadow: 0 0 10px #008dff;
+}
+
+.create__thing {
+  width: 300px;
+  height: 40px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  border: 3px solid #008dff;
+  box-shadow: 0 0 10px #008dff;
+}
+.create__thing:hover {
+  cursor: pointer;
+  background: linear-gradient(50deg, #9bd2ff, #008dff, #9bd2ff);
+  color: #fff;
+  box-shadow: 0 0 40px #008dff;
+}
+
+@media screen and (max-width: 1400px) {
+  .create__form input,
+  .create__form select {
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #008dff;
+    box-shadow: 0 0 10px #008dff;
+  }
+
+  .create__thing {
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #008dff;
+    box-shadow: 0 0 10px #008dff;
+  }
+  .create__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .create__form input,
+  .create__form select {
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #008dff;
+    box-shadow: 0 0 10px #008dff;
+  }
+
+  .create__thing {
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #008dff;
+    box-shadow: 0 0 10px #008dff;
+  }
+  .create__form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .create__form input,
+  .create__form select {
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+    
+    border-radius: 10px;
+    border: 3px solid #008dff;
+    box-shadow: 0 0 10px #008dff;
+  }
+
+  .create__thing {
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+    
+    border-radius: 20px;
+    border: 3px solid #008dff;
+    box-shadow: 0 0 10px #008dff;
+  }
+  .create__form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 30px;
+  }
+}
